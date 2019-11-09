@@ -38,6 +38,12 @@ define("DB_NAME", "myDevTeamDB");
 define("DB_USER", "root");
 define("DB_PASSWORD", "123456");
 ```
+Make sure to change the encryption key before you host your Café.
+Change the two variables in /security/encryption.php
+```php
+$secret_key = 'abc123';
+$secret_iv = '123abc';
+```
 
 Once you have everything installed, start the server!
 ```shell
