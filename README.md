@@ -94,7 +94,7 @@ This will allow this person to kick others as well. (*Just be careful, because a
 ```
 
 ## Donations
-I hope I squashed all the bugs in my code--if I didn't, go ahead and post an issue. I'll respond as quick as I can.
+I hope I squashed all the bugs in my code--if I didn't, go ahead and post an issue. I'll respond as quickly as I can.
 
 **Also**, Donations are greatly appreciated. I'm currently trying to start my own business, any donations **(even just $1)** are really appreciated and really help.
 
