@@ -1,8 +1,8 @@
 <?php
 function encryptString($string, $action = 'e') {
-    // SECRET KEYS
-    $secret_key = 'rongt0249tj2940tjw9g&fir39$t83iorh390jIEF%';
-    $secret_iv = 'UH5%qkDJR$euhFEUOHF*2#f0_093f(Q#FAOSMfigrnn';
+    // SECRET KEYS - Note: Make sure the 2 variables below are different values.
+    $secret_key = 'ENCRYPTION-KEY-HERE';
+    $secret_iv = 'ENCRYPTION-IV-HERE';
  
     $output = false;
     $encrypt_method = "AES-256-CBC";
