@@ -56,7 +56,7 @@ while ($getDataRow = mysqli_fetch_assoc($getData)) {
             echo "
             <div class=\"" . $classNames . "\">
                 <div class=\"profile-image\"><img src=\"http://identicon-1132.appspot.com/" . $name . "?s=7\"></div>
-                <div class=\"content\"><div class=\"name\"><span class=\"admin\">" . htmlspecialchars($name, ENT_QUOTES, 'UTF-8') . "</span> <span class=\"time\">" . $time . "</span></div>
+                <div class=\"content\"><div class=\"name\">" . htmlspecialchars($name, ENT_QUOTES, 'UTF-8') . " <span class=\"small\">(Admin)</span> <span class=\"time\">" . $time . "</span></div>
                 " . makeClickableLinks(htmlspecialchars($content, ENT_QUOTES, 'UTF-8')) . "</div>
             </div>
             ";

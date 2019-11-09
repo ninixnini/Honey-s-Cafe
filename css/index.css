@@ -4,7 +4,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	/*background-color: orange !important;*/
-	background-color: #88304e !important;
+	background-color: #1c1c1c !important;
 	scroll-behavior: smooth;
 }
 
@@ -82,8 +82,8 @@ hr {
 	cursor: pointer;
 }
 .users-list .user .admin {
-	color:#fff200 !important;
-	text-shadow: #EEEE00 0 0 13px !important;
+/*	color:#fff200 !important;
+	text-shadow: #EEEE00 0 0 13px !important;*/
 }
 
 /* Public chat area */
@@ -125,8 +125,8 @@ hr {
 	color: white;
 }
 .public-chats .chat .admin {
-	color:#fff200 !important;
-	text-shadow: #EEEE00 0 0 13px !important;
+	/*color:#fff200 !important;
+	text-shadow: #EEEE00 0 0 13px !important;*/
 }
 .public-chats .chat .time {
 	color: #a7a7a7;
@@ -144,7 +144,7 @@ hr {
 
 /* Input Area / Posting Area */
 .post-area {
-	background-color: #ff6464;
+	background-color: #58566a;
 	position: absolute;
 	bottom: 0px;
 	right: 0px;

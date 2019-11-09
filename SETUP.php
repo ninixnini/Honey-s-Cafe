@@ -11,15 +11,13 @@
 // | $$__/  \|  $$$$$$$| $$     | $$$$$$$$      |  $$$$$$$| $$__/ $$      | $$|  $$$$$$$| $$  | $$|  \
 //  \$$    $$ \$$    $$| $$      \$$     \       \$$    $$ \$$    $$      | $$ \$$    $$| $$   \$$  $$
 //   \$$$$$$   \$$$$$$$ \$$       \$$$$$$$        \$$$$$$$  \$$$$$$        \$$  \$$$$$$$ \$$    \$$$$ 
-//
-//  Created By CodeShady
 //   _____  _____  _____  _____  _____ 
 //  |   __||   __||_   _||  |  ||  _  |
 //  |__   ||   __|  | |  |  |  ||   __|
 //  |_____||_____|  |_|  |_____||__|   
                                                                                                                      
 //  To Get Started, please run this page in your browser. - http://MYSITE.com/SETUP.php
-
+                                                                             
 
 // TITLE
 define("TITLE", "My Developer Team");
@@ -32,6 +30,12 @@ define("DB_HOST", "127.0.0.1");
 define("DB_NAME", "CAFE-DATABASE");
 define("DB_USER", "MYSQL-USERNAME");
 define("DB_PASSWORD", "MYSQL-PASSWORD");
+
+
+
+
+
+
 
 
 

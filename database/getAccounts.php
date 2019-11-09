@@ -2,9 +2,9 @@
 
 // Fetch all accounts and list them
 if ($_GET["sort"] == "2") {
-	$fetchUserQuery = mysqli_query($database, "SELECT name, role FROM cafeusers ORDER BY name DESC");
+	$fetchUserQuery = mysqli_query($database, "SELECT name, role FROM cafeusers ORDER BY (role = 'admin') ASC, name ASC;");
 } else {
-	$fetchUserQuery = mysqli_query($database, "SELECT name, role FROM cafeusers ORDER BY name ASC");
+	$fetchUserQuery = mysqli_query($database, "SELECT name, role FROM cafeusers ORDER BY (role = 'admin') DESC, name DESC;");
 }
 
 while($fetchUserRow = mysqli_fetch_assoc($fetchUserQuery)) {
@@ -18,7 +18,11 @@ while($fetchUserRow = mysqli_fetch_assoc($fetchUserQuery)) {
 	}
 
 	if ($role == "admin") {
-	echo "<div class=\"user\"><img src=\"http://identicon-1132.appspot.com/" . $username . "?s=7\"><span class=\"admin\">" . $username . "</span> <span class=\"small\">$you</span></div>";
+		if ($you == "(You)") {
+			echo "<div class=\"user\"><img src=\"http://identicon-1132.appspot.com/" . $username . "?s=7\">" . $username . " <span style=\"color:#c5c5c5;\" class=\"small\">$you</span></div>";
+		} else {
+			echo "<div class=\"user\"><img src=\"http://identicon-1132.appspot.com/" . $username . "?s=7\">" . $username . " <span style=\"color:#c5c5c5;\" class=\"small\">(Admin)</span></div>";
+		}
 	} else {
 		echo "<div class=\"user\"><img src=\"http://identicon-1132.appspot.com/" . $username . "?s=7\">" . $username . " <span class=\"small\">$you</span></div>";
 	}

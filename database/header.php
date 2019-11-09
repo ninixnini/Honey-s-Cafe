@@ -21,7 +21,8 @@ if (isset($_POST["postButton"]) && $cookieValid && !$banned) {
 			$kickingUser = encryptString(substr($postInput, 6), "e");
 			$absoluteTime = time();
 			$formattedTime = encryptString(date("h:i A") . "  " . date("m/d/Y"), "e");
-			$kickQuery = mysqli_query($database, "UPDATE cafeusers SET role='banned' WHERE name='" . $kickingUser . "';") or die(mysqli_error($database));
+			$kickQuery = mysqli_query($database, "DELETE FROM cafeusers WHERE name='" . $kickingUser . "';") or die(mysqli_error($database));
+			// $kickQuery = mysqli_query($database, "UPDATE cafeusers SET role='banned' WHERE name='" . $kickingUser . "';") or die(mysqli_error($database));
 			$deleteKickQuery = mysqli_query($database, "DELETE FROM publicchat WHERE name='" . $kickingUser . "';") or die(mysqli_error($database));
 
 			if ($kickQuery && $deleteKickQuery) {
