@@ -10,22 +10,6 @@ $email = strtolower($email);
 $password_verify = $_POST["password_verify"];
 $date_joined = date("m/d/Y");
 
-// THE USERNAME CAN'T HAVE SPACES IN IT BECAUSE
-// IT WILL BREAK MY DATABASE
-// $username = preg_replace("#[^0-9a-z]#i", "", $username);
-
-// +------------+------+------+-----+---------+-------+
-// | Field      | Type | Null | Key | Default | Extra |
-// +------------+------+------+-----+---------+-------+
-// | name       | text | YES  |     | NULL    |       |
-// | email      | text | YES  |     | NULL    |       |
-// | password   | text | YES  |     | NULL    |       |
-// | ipAddress  | text | YES  |     | NULL    |       |
-// | dateJoined | text | YES  |     | NULL    |       |
-// | id         | text | YES  |     | NULL    |       |
-// +------------+------+------+-----+---------+-------+
-
-
 // GET IPADDRESS
 $IMPORTANT_ipaddress = $_SERVER['REMOTE_ADDR'];
 
