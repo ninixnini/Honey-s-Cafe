@@ -13,7 +13,7 @@
 ```bash
 https://discord.gg/rpd98DD
 ```
-## Steps.
+## Steps:
 
 **First**, you will need to agree with our server rules. As soon as you're done reading them, you will have to type a message saying:
 ```bash
