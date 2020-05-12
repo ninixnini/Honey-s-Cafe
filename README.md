@@ -1,13 +1,14 @@
 ![title-image](https://i.imgur.com/RHa0TeO.gif)
-## What is Café Au Lait? (Ka-fa-o-lay)
-Café Au Lait is a free and simple way to create and host your own chat server. Café Au Lait works like the popular apps - Discord and Slack.
-## Why should I use it?
-1. It's **Open source**. You can view all the code, anytime.
-2. **Full control**. You have full control of what happens in your Café (A *Café* is the name Café Au Lait running on your server)
-3. **Run it anywhere**. You can run Café Au Lait on your server, or even your personal laptop.
-4. **Edit the code**. Don't like a color? You can change it! You can edit the source code of Café Au Lait anytime!
-# Installation
-Convinced yet? Here's how to install Café Au Lait.
+## What is Honey's Café? 
+**Honey's Café** is a public discord server with a welcoming community.
+
+## Why should you join our server?
+1. It's **LGBTQ friendly**. You will never feel judged in our community.
+2. **SFW**. There will not be any NSFW content.
+3. **Partnership**. You can parter with Honey's Café and advertise your own server.
+4. **Roles**. Don't like a color? You can change it! Want to buy new roles? You can always do that in our **Sweet Shop**.
+5. **Giveaways**. There will be nitro, gift cards and more giveaways.
+Convinced yet? Here's our server link:
 ```bash
 git clone https://github.com/CodeShady/Cafe-Au-Lait.git
 cd Cafe-Au-Lait
