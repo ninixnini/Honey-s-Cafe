@@ -13,90 +13,32 @@ Convinced yet? Here's our server link:
 ```bash
 https://discord.gg/rpd98DD
 ```
-First, you will need to install PHP and MySQL.
+First, you will need to agree with our server rules. As soon as you're done reading them you will have to type a message saying:
 ```bash
-sudo apt-get install php
-sudo apt-get install mysql-server
+I agree
 ```
-Next you will need to setup the SETUP.php script so everything will work properly.
-Open SETUP.php with your favorite text editor in the Cafe-Au-Lait folder.
+Next you will need to introduce yourself in #bio. Example:
 ```bash
-nano SETUP.php
+Name:
+Age:
+Status:
+Hobbies:
 ```
-Scroll down to the **25**th line and change **TITLE** to whatever you want to name your Café.
+Scroll down and tap #profile. There you'll be able to get roles by tapping on the assigned reactions. For **Hobby**, **Pings** and **Extras** you will need to type down the roles you want. Example:
 ```php
-define("TITLE", "My Developer Team");
++artist (to add a role)
+-artist (to remove a role)
 ```
-New edit line **28**, the **TEAM_IMAGE_URL** should be set to the image url your guests see when they open the invitation to join your Café.
+Set up your birthday date in #birthday-dates.
 ```php
-define("TEAM_IMAGE_URL", "myInvitationImage.png");
+dd/mm/year
 ```
-Next up is the database setup starting at line **31**.
-```php
-// DATABASE SETUP
-define("DB_HOST", "127.0.0.1");
-define("DB_NAME", "myDevTeamDB");
-define("DB_USER", "root");
-define("DB_PASSWORD", "123456");
-```
-Make sure to change the encryption key before you host your Café.
-Change the two variables in /security/encryption.php
-```php
-$secret_key = 'abc123';
-$secret_iv = '123abc';
-```
+Next up, pick a color in #colors.
+**ke sure to not react to more than one color.**
 
-Once you have everything installed, start the server!
-```shell
-#      IPADDRESS:PORT
-php -S localhost:8080
-```
-Visit http://localhost:8080 in your browser.
 
-**NOTE:** You may get an error when loading the page for the first time. This is because the script is still setting up the database. To fix this, just reload the page.
+*Once you have everything all set up,start chatting in #general-chat.*
 
-Once you create an account and get everything all set up, I recommend giving yourself admin privileges.
-To do this, get into the mysql server console.
-```bash
-mysql -u root -p
-```
-Then use these commands.
-```sql
-mysql> use myDevTeamDB;
-Database changed
-mysql> SELECT name FROM cafeusers;
-+----------------------------------+
-| name                             |
-+----------------------------------+
-| YOUR-ENCRYPTED-USERNAME          |
-+----------------------------------+
-1 rows in set (0.01 sec)
 
-mysql> UPDATE cafeusers SET role="admin" WHERE name="YOUR-ENCRYPTED-USERNAME";
-Query OK, 1 row affected (0.00 sec)
-Rows matched: 1  Changed: 1  Warnings: 0
-
-mysql> exit
-```
-
-Now reload the page and you will see that you are admin! ;)
-
-## If you're admin...
-You have privileges to use special commands in the post bar.
-
-**To kick someone**
-```bash
-/kick USERNAME
-```
-**Promote Someone To Admin Level**
-This will allow this person to kick others as well. (*Just be careful, because admins can kick admins.*)
-```bash
-/promote USERNAME
-```
-
-## Donations
-I hope I squashed all the bugs in my code--if I didn't, go ahead and post an issue. I'll respond as quickly as I can.
-
-**Also**, Donations are greatly appreciated. I'm currently trying to start my own business, any donations **(even just $1)** are really appreciated and really help.
-
-**BTC Donations:**  bc1qfpz9q09xmvsk206p0ts6nul88hrxzzkfr4p0rr
+## Partnership.
+Make sure to DM the owner or any of the PM's!
