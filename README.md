@@ -1,3 +1,4 @@
+theme: jekyll-theme-tactile
 ![title-image](https://i.imgur.com/RHa0TeO.gif)
 ## What is Honey's Café? 
 **Honey's Café** is a public discord server with a welcoming community.
