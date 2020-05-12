@@ -8,10 +8,10 @@
 3. **Partnership**. You can parter with Honey's Café and advertise your own server.
 4. **Roles**. Don't like a color? You can change it! Want to buy new roles? You can always do that in our **Sweet Shop**.
 5. **Giveaways**. There will be nitro, gift cards and more giveaways.
+
 Convinced yet? Here's our server link:
 ```bash
-git clone https://github.com/CodeShady/Cafe-Au-Lait.git
-cd Cafe-Au-Lait
+https://discord.gg/rpd98DD
 ```
 First, you will need to install PHP and MySQL.
 ```bash
