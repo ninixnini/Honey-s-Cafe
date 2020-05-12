@@ -44,4 +44,3 @@ dd/mm/year
 
 ## Partnership.
 Make sure to DM the owner or any of the PM's!
-theme: jekyll-theme-tactile 
